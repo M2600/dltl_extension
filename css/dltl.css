@@ -1,0 +1,13 @@
+.allWrapper{
+	display: flex;
+}
+
+.leftPart{
+	overflow: hidden;
+	resize: horizontal;
+}
+
+.rightPart{
+	margin: 0;
+	flex: 1;
+}

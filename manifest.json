@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "dltl_extension",
+	"version": "0.1",
+
+	"description": "Change UI of dltl online editor and make more fantastic user experiences.",
+
+	"content_scripts": [
+		{
+			"matches": ["*://klabst.eplang.jp/dncl_beta/*"],
+			"js": [
+				"main.js"
+			],
+			"css": [
+				"css/dltl.css"
+			]
+		}
+	]
+}
+
